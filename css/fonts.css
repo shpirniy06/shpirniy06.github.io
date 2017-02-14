@@ -1,0 +1,46 @@
+@font-face{
+	font-family: "CuprumRegular";
+	src: url('../cuprumtest/Cuprum-Regular.ttf'); /* IE9 Compat Modes */
+	font-style: normal;
+	font-weight: 400;
+}
+
+/* cuprum-regular - latin_cyrillic_latin-ext */
+
+@font-face{
+	font-family: "CuprumBold";
+	src: url("../fonts/cuprum/Cuprum-Bold.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "CuprumItalic";
+	src: url("../fonts/cuprum/Cuprum-Italic.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+
+@font-face{
+	font-family: "RalewayRegular";
+	src: url('../fonts/raleway/RalewayRegular.ttf'); /* IE9 Compat Modes */
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face{
+	font-family: "RalewayBold";
+	src: url('../fonts/raleway/RalewayBold.ttf'); /* IE9 Compat Modes */
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face{
+	font-family: "RalewayLight";
+	src: url('../fonts/raleway/RalewayLight.ttf'); /* IE9 Compat Modes */
+	font-style: normal;
+	font-weight: 400;
+}
