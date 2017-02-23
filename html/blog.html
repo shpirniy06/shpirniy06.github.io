@@ -61,8 +61,8 @@
 
 <style type="text/css">
   .scroll{
-    width: 100%;
-    height:530px;
+    width: 79%;
+    height:480px;
     overflow-x:scroll;
     overflow-y:hidden;
     display: inline-block;
@@ -74,20 +74,20 @@
     text-align:center;
     height: 500px;
     margin-right: 10px;
-    width: 400px;
+    max-width: 400px;
     
   }
 
   .scroll_child .item .img{
   	width: 100%;
   }
-  .scroll::-webkit-scrollbar{
-  width: 1px !important;
-  }
-	.scroll::-webkit-scrollbar-thumb{
-  border-width:1px 1px 1px 1px;
-  border-color: #777;
-  background-color: #005E8E; /* #aaa  #003366*/
+  .scroll::-webkit-scrollbar-thumb {
+		background-color: #005E8E;
+		width: 20px;
+	}
+	.scroll::-webkit-scrollbar{
+		background-color: #fff;
+		height: 3px;
 	}
 </style>
 </head>
@@ -97,11 +97,6 @@
 	<div class="container">
 		<div class="information">
 			<div class="social">
-				<div class="social-item">
-					<a href="">
-						<i class="fa fa-home" aria-hidden="true"></i>
-					</a>
-				</div>
 				<div class="social-item">
 					<a href="">
 						<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -136,7 +131,7 @@
 						<a href="portfolio.html">Портфолио</a>
 					</li>
 					<li><a href="services.html">Услуги</a></li>
-					<li><a href="blog.html" class="font_blue">Полезности</a></li>
+					<li><a href="blog.html" class="font_blue">Полезно</a></li>
 					<li><a href="reviews.html">Отзывы</a></li>
 					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
@@ -146,110 +141,99 @@
 
 
 <div class="main">
-	<div class="scroll">
-    <div class="scroll_child">
-    <div class="item controls item_big">
-			<div class="item_mini">
-				<div class=" view view-third ">
-    			<img src="../img/blog_img_mini.jpg" alt="">
-    			<a class="mask control" target="_blank" data-filter=".mx1">
-   					<h2>Свадьба</h2>
-    			</a>
-    		</div>
-			</div>
-			<div class="item_mini">
-				<div class=" view view-third ">
-    			<img src="../img/blog_img_mini2.jpg" alt="">
-    			<a class="mask control" target="_blank" data-filter=".mx2">
-   					<h2>Love Story</h2>
-    			</a>
-    		</div>
-			</div>
-			<div class="item_mini">
-				<div class=" view view-third ">
-    			<img src="../img/blog_img_mini3.jpg" alt="">
-    			<a class="mask control" target="_blank" data-filter=".mx3">
-   					<h2>Семья</h2>
-    			</a>
-    		</div>
-			</div>
-			<div class="item_mini">
-				<div class=" view view-third ">
-    			<img src="../img/blog_img_mini4.jpg" alt="">
-    			<a class="mask control" target="_blank" data-filter=".mx4">
-   					<h2>Беременность</h2>
-    			</a>
-    		</div>
-			</div>
-			<div class="item_mini">
-				<div class=" view view-third ">
-    			<img src="../img/blog_img_mini5.jpg" alt="">
-    			<a class="mask control" target="_blank" data-filter=".mx5">
-   					<h2>Фото книги</h2>
-    			</a>
-    		</div>
-			</div>
-			<div class="item_mini">
-				<div class=" view view-third ">
-    			<img src="../img/blog_img_mini6.jpg" alt="">
-    			<a class="mask control" target="_blank" data-filter=".mx6">
-   					<h2>Взрослый портрет</h2>
-    			</a>
-    		</div>
-			</div>
-    </div>
-    <div class="mix_container">
-    <div class="item mix mx1">
-			<div class="img"><img src="../img/blog_img.jpg" alt=""></div>
-			<div class="text">
-				<h5>Название статьи</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="blog_items/blog_item.html">Читать</a></div>
-    </div>
-    <div class="item mix mx1"> 
-			<div class="img"><img src="../img/blog_img2.jpg" alt=""></div>
-			<div class="text">
-				<h5>Название статьи</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="blog_items/blog_item.html">Читать</a></div>
-    </div>
-    <div class="item mix mx2">   
-			<div class="img"><img src="../img/blog_img3.jpg" alt=""></div>
-			<div class="text">
-				<h5>Название статьи</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="blog_items/blog_item.html">Читать</a></div>
-    </div>
-    <div class="item mix mx3">
-			<div class="img"><img src="../img/blog_img4.jpg" alt=""></div>
-			<div class="text">
-				<h5>Название статьи</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="blog_items/blog_item.html">Читать</a></div>
-    </div>
-    <div class="item mix mx4">   
-			<div class="img"><img src="../img/blog_img5.jpg" alt=""></div>
-			<div class="text">
-				<h5>Название статьи</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="blog_items/blog_item.html">Читать</a></div>
-    </div>
-    <div class="item mix mx5"> 
-			<div class="img"><img src="../img/blog_img6.jpg" alt=""></div>
-			<div class="text">
-				<h5>Название статьи</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="blog_items/blog_item.html">Читать</a></div>
-    </div>
+<div class="container">
+	<div class="right_nav">
+		<ul class="controls">
+			<li class="filter"><a class="control" data-filter="all">Все</a></li>
+			<li class="filter"><a class="control" data-filter=".marriage">Свадебные советы</a></li>
+			<li class="filter"><a class="control" data-filter=".love-story">Готовимся к Love Story</a></li>
+			<li class="filter"><a class="control" data-filter=".family">Фотосессия с ребенком</a></li>
+			<li class="filter"><a class="control" data-filter=".sv">Фотосессия беременности</a></li>
+			<li class="filter"><a class="control" data-filter=".sv">События и праздники</a></li>
+			<li class="filter"><a class="control" data-filter=".sv">Общие рекомендации</a></li>
+			<li class="filter"><a class="control" data-filter=".sv">Фотостудии/новости</a></li>
+			<li class="filter"><a class="control" data-filter=".sv">Фотокнига</a></li>
+		</ul>
 	</div>
-  
+	<div class="scroll">
+  <div class="scroll_child mix_container">
+    <div class="item">
+    	<div class="view view-third mix marriage">
+    		<div class="img"><img src="../img/blog_img.jpg" alt=""></div>
+			<div class="text">
+				<h5>Название статьи</h5>
+				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+			</div>
+			<a class="mask" target="_blank" href="blog_items/blog_item.html">
+   				<h2>Читать</h2>
+    	</a>
+    	</div>
+    </div>
+    <div class="item">
+    	<div class="view view-third mix love-story">
+    		<div class="img"><img src="../img/blog_img2.jpg" alt=""></div>
+			<div class="text">
+				<h5>Название статьи</h5>
+				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+			</div>
+			<a class="mask" target="_blank" href="blog_items/blog_item.html">
+   				<h2>Читать</h2>
+    	</a>
+    	</div>
+    </div>
+    <div class="item">
+    	<div class="view view-third mix family">
+    		<div class="img"><img src="../img/blog_img3.jpg" alt=""></div>
+			<div class="text">
+				<h5>Название статьи</h5>
+				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+			</div>
+			<a class="mask" target="_blank" href="blog_items/blog_item.html">
+   				<h2>Читать</h2>
+    	</a>
+    	</div>
+    </div>
+    <div class="item">
+    	<div class="view view-third mix marriage">
+    		<div class="img"><img src="../img/blog_img4.jpg" alt=""></div>
+			<div class="text">
+				<h5>Название статьи</h5>
+				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+			</div>
+			<a class="mask" target="_blank" href="blog_items/blog_item.html">
+   				<h2>Читать</h2>
+    	</a>
+    	</div>
+    </div>
+    <div class="item">
+    	<div class="view view-third mix love-story">
+    		<div class="img"><img src="../img/blog_img5.jpg" alt=""></div>
+			<div class="text">
+				<h5>Название статьи</h5>
+				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+			</div>
+			<a class="mask" target="_blank" href="blog_items/blog_item.html">
+   				<h2>Читать</h2>
+    	</a>
+    	</div>
+    </div>
+    <div class="item">
+    	<div class="view view-third mix family">
+    		<div class="img"><img src="../img/blog_img6.jpg" alt=""></div>
+			<div class="text">
+				<h5>Название статьи</h5>
+				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+			</div>
+			<a class="mask" target="_blank" href="blog_items/blog_item.html">
+   				<h2>Читать</h2>
+    	</a>
+    	</div>
+    </div>
+
+
+    </div>
   </div>
+</div>
 </div>
 </div>
 

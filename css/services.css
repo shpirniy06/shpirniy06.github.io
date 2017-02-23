@@ -176,24 +176,27 @@ header .information .social {
 /* line 85, ../sass/services.sass */
 header .information .social .social-item {
   display: inline-block;
-  font-size: 1.6em;
+  font-size: 1.8em;
   width: 30px;
   height: 30px;
-  background-color: #005E8E;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin-right: 4%;
 }
-/* line 94, ../sass/services.sass */
+/* line 93, ../sass/services.sass */
 header .information .social .social-item a {
-  color: #fff;
+  color: #005E8E;
   text-decoration: none;
 }
-/* line 97, ../sass/services.sass */
+/* line 96, ../sass/services.sass */
+header .information .social .social-item a:hover {
+  color: #000;
+}
+/* line 98, ../sass/services.sass */
 header .information .social .social-item a i {
   margin-top: 7px;
 }
-/* line 100, ../sass/services.sass */
+/* line 101, ../sass/services.sass */
 header .information .phone_number {
   display: inline-block;
   width: 18%;
@@ -201,12 +204,12 @@ header .information .phone_number {
   text-align: right;
   float: right;
 }
-/* line 106, ../sass/services.sass */
+/* line 107, ../sass/services.sass */
 header .information .phone_number h3 {
   font: 2.2em "CuprumRegular", Arial, sans-serif;
   margin-bottom: 1%;
 }
-/* line 109, ../sass/services.sass */
+/* line 110, ../sass/services.sass */
 header .information .phone_number h2 {
   font: 1.2em "CuprumRegular", Arial, sans-serif;
   letter-spacing: 5px;
@@ -214,7 +217,7 @@ header .information .phone_number h2 {
   margin-left: 2%;
 }
 
-/* line 116, ../sass/services.sass */
+/* line 117, ../sass/services.sass */
 nav {
   display: inline-block;
   width: 100%;
@@ -223,13 +226,13 @@ nav {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 123, ../sass/services.sass */
+/* line 124, ../sass/services.sass */
 nav ul {
   width: 100%;
   height: 16px;
   padding-left: 15%;
 }
-/* line 127, ../sass/services.sass */
+/* line 128, ../sass/services.sass */
 nav ul li {
   cursor: pointer;
   float: left;
@@ -238,15 +241,15 @@ nav ul li {
   border-right: 1px solid #005E8E;
   text-align: center;
 }
-/* line 134, ../sass/services.sass */
+/* line 135, ../sass/services.sass */
 nav ul li:last-child {
   border-right: none;
 }
-/* line 136, ../sass/services.sass */
+/* line 137, ../sass/services.sass */
 nav ul li:hover {
   text-decoration: none;
 }
-/* line 138, ../sass/services.sass */
+/* line 139, ../sass/services.sass */
 nav ul li a {
   display: block;
   width: 100%;
@@ -256,37 +259,37 @@ nav ul li a {
   font: 1.35em "RalewayBold", Arial, sans-serif;
   text-decoration: none;
 }
-/* line 146, ../sass/services.sass */
+/* line 147, ../sass/services.sass */
 nav ul li a:hover {
   text-decoration: none;
   color: #005E8E;
 }
-/* line 149, ../sass/services.sass */
+/* line 150, ../sass/services.sass */
 nav ul li a:focus {
   color: #005E8E;
 }
-/* line 151, ../sass/services.sass */
+/* line 152, ../sass/services.sass */
 nav ul li:nth-child(5) {
   width: 19%;
 }
 
-/* line 156, ../sass/services.sass */
+/* line 157, ../sass/services.sass */
 .main {
   position: relative;
   margin-top: 5%;
 }
-/* line 159, ../sass/services.sass */
+/* line 160, ../sass/services.sass */
 .main .items {
   margin-top: 2%;
 }
-/* line 161, ../sass/services.sass */
+/* line 162, ../sass/services.sass */
 .main .items .item {
   width: 33%;
   display: inline-block;
   float: left;
   margin-bottom: 5%;
 }
-/* line 167, ../sass/services.sass */
+/* line 168, ../sass/services.sass */
 .main .items .item .icon {
   width: 14%;
   display: inline-block;
@@ -294,36 +297,39 @@ nav ul li:nth-child(5) {
   color: #005E8E;
   vertical-align: top;
 }
-/* line 173, ../sass/services.sass */
+/* line 174, ../sass/services.sass */
 .main .items .item .text {
   width: 75%;
   display: inline-block;
 }
-/* line 176, ../sass/services.sass */
+/* line 177, ../sass/services.sass */
 .main .items .item .text a {
   font: 1.55em "RalewayBold", Arial, sans-serif;
   color: #005E8E;
   text-decoration: none;
 }
-/* line 180, ../sass/services.sass */
+/* line 181, ../sass/services.sass */
 .main .items .item .text a:hover {
   color: #000;
 }
-/* line 182, ../sass/services.sass */
+/* line 183, ../sass/services.sass */
 .main .items .item .text p {
   margin-top: 3%;
+}
+/* line 185, ../sass/services.sass */
+.main .items .item .text p a {
   font: 1.2em "RalewayRegular", Arial, sans-serif;
   word-spacing: 0.1em;
   line-height: 1.2em;
   color: #333;
 }
 
-/* line 205, ../sass/services.sass */
+/* line 207, ../sass/services.sass */
 .font_blue {
   color: #005E8E;
 }
 
-/* line 208, ../sass/services.sass */
+/* line 210, ../sass/services.sass */
 .line {
   width: 25px;
   height: 2px;
@@ -332,24 +338,24 @@ nav ul li:nth-child(5) {
   margin-left: 2px;
 }
 
-/* line 215, ../sass/services.sass */
+/* line 217, ../sass/services.sass */
 footer {
   margin-top: 30px;
   clear: left;
 }
-/* line 218, ../sass/services.sass */
+/* line 220, ../sass/services.sass */
 footer .container {
   padding-top: 3.5%;
   padding-bottom: 1.5%;
 }
-/* line 221, ../sass/services.sass */
+/* line 223, ../sass/services.sass */
 footer .container h5 {
   text-align: center;
   font: 1em "RalewayRegular", Arial, sans-serif;
   letter-spacing: 2px;
 }
 
-/* line 228, ../sass/services.sass */
+/* line 230, ../sass/services.sass */
 .locked {
   -webkit-user-select: none;
   -moz-user-select: none;
