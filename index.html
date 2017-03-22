@@ -72,14 +72,14 @@
   .scroll_child .item .two img{
   	width: 100%;
   }
-  .scroll::-webkit-scrollbar-thumb {
-    background-color: #005E8E;
-    width: 20px;
-  }
   .scroll::-webkit-scrollbar{
-    background-color: #fff;
-    height: 3px;
+  width: 1px !important;
   }
+	.scroll::-webkit-scrollbar-thumb{
+  border-width:1px 1px 1px 1px;
+  border-color: #777;
+  background-color: #005E8E; /* #aaa  #003366*/
+	}
 </style>
 
 	<script src="js/anti_plagiat.js"></script>
@@ -91,6 +91,11 @@
 	<div class="container">
 		<div class="information">
 			<div class="social">
+				<div class="social-item">
+					<a href="">
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</a>
+				</div>
 				<div class="social-item">
 					<a href="">
 						<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -126,7 +131,7 @@
 						<a href="html/portfolio.html">Портфолио</a>
 					</li>
 					<li><a href="html/services.html">Услуги</a></li>
-					<li><a href="html/blog.html">Полезно</a></li>
+					<li><a href="html/blog.html">Полезности</a></li>
 					<li><a href="">Отзывы</a></li>
 					<li><a href="html/contacts.html">Контакты</a></li>
 				</ul>

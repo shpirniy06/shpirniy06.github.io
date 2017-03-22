@@ -176,27 +176,24 @@ header .information .social {
 /* line 85, ../sass/reviews.sass */
 header .information .social .social-item {
   display: inline-block;
-  font-size: 1.8em;
+  font-size: 1.6em;
   width: 30px;
   height: 30px;
+  background-color: #005E8E;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin-right: 4%;
 }
-/* line 93, ../sass/reviews.sass */
+/* line 94, ../sass/reviews.sass */
 header .information .social .social-item a {
-  color: #005E8E;
+  color: #fff;
   text-decoration: none;
 }
-/* line 96, ../sass/reviews.sass */
-header .information .social .social-item a:hover {
-  color: #000;
-}
-/* line 98, ../sass/reviews.sass */
+/* line 97, ../sass/reviews.sass */
 header .information .social .social-item a i {
   margin-top: 7px;
 }
-/* line 101, ../sass/reviews.sass */
+/* line 100, ../sass/reviews.sass */
 header .information .phone_number {
   display: inline-block;
   width: 18%;
@@ -204,12 +201,12 @@ header .information .phone_number {
   text-align: right;
   float: right;
 }
-/* line 107, ../sass/reviews.sass */
+/* line 106, ../sass/reviews.sass */
 header .information .phone_number h3 {
   font: 2.2em "CuprumRegular", Arial, sans-serif;
   margin-bottom: 1%;
 }
-/* line 110, ../sass/reviews.sass */
+/* line 109, ../sass/reviews.sass */
 header .information .phone_number h2 {
   font: 1.2em "CuprumRegular", Arial, sans-serif;
   letter-spacing: 5px;
@@ -217,7 +214,7 @@ header .information .phone_number h2 {
   margin-left: 2%;
 }
 
-/* line 117, ../sass/reviews.sass */
+/* line 116, ../sass/reviews.sass */
 nav {
   display: inline-block;
   width: 100%;
@@ -226,13 +223,13 @@ nav {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 124, ../sass/reviews.sass */
+/* line 123, ../sass/reviews.sass */
 nav ul {
   width: 100%;
   height: 16px;
   padding-left: 15%;
 }
-/* line 128, ../sass/reviews.sass */
+/* line 127, ../sass/reviews.sass */
 nav ul li {
   cursor: pointer;
   float: left;
@@ -241,15 +238,15 @@ nav ul li {
   border-right: 1px solid #005E8E;
   text-align: center;
 }
-/* line 135, ../sass/reviews.sass */
+/* line 134, ../sass/reviews.sass */
 nav ul li:last-child {
   border-right: none;
 }
-/* line 137, ../sass/reviews.sass */
+/* line 136, ../sass/reviews.sass */
 nav ul li:hover {
   text-decoration: none;
 }
-/* line 139, ../sass/reviews.sass */
+/* line 138, ../sass/reviews.sass */
 nav ul li a {
   display: block;
   width: 100%;
@@ -259,35 +256,35 @@ nav ul li a {
   font: 1.35em "RalewayBold", Arial, sans-serif;
   text-decoration: none;
 }
-/* line 147, ../sass/reviews.sass */
+/* line 146, ../sass/reviews.sass */
 nav ul li a:hover {
   text-decoration: none;
   color: #005E8E;
 }
-/* line 150, ../sass/reviews.sass */
+/* line 149, ../sass/reviews.sass */
 nav ul li a:focus {
   color: #005E8E;
 }
-/* line 152, ../sass/reviews.sass */
+/* line 151, ../sass/reviews.sass */
 nav ul li:nth-child(5) {
   width: 19%;
 }
 
-/* line 154, ../sass/reviews.sass */
+/* line 153, ../sass/reviews.sass */
 .submenu {
   position: absolute;
   left: 0;
   right: 0;
   margin-top: 2%;
 }
-/* line 160, ../sass/reviews.sass */
+/* line 159, ../sass/reviews.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown {
   width: 100% !important;
   position: static !important;
   padding: 0 !important;
   float: right;
 }
-/* line 165, ../sass/reviews.sass */
+/* line 164, ../sass/reviews.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel {
   width: 100% !important;
   position: static !important;
@@ -298,12 +295,12 @@ nav ul li:nth-child(5) {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-/* line 174, ../sass/reviews.sass */
+/* line 173, ../sass/reviews.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul {
   width: 100%;
   height: 16px;
 }
-/* line 177, ../sass/reviews.sass */
+/* line 176, ../sass/reviews.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li {
   cursor: pointer;
   display: inline-block;
@@ -311,15 +308,15 @@ nav ul li:nth-child(5) {
   height: 100%;
   text-align: center;
 }
-/* line 183, ../sass/reviews.sass */
+/* line 182, ../sass/reviews.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li:last-child {
   border-right: none;
 }
-/* line 185, ../sass/reviews.sass */
+/* line 184, ../sass/reviews.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li:hover {
   text-decoration: none;
 }
-/* line 187, ../sass/reviews.sass */
+/* line 186, ../sass/reviews.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li a {
   display: block;
   width: 100%;
@@ -329,18 +326,18 @@ nav ul li:nth-child(5) {
   font: 1.15em "RalewayRegular", Arial, sans-serif;
   text-decoration: none;
 }
-/* line 195, ../sass/reviews.sass */
+/* line 194, ../sass/reviews.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li a:hover {
   text-decoration: none;
   color: #005E8E;
 }
 
-/* line 200, ../sass/reviews.sass */
+/* line 199, ../sass/reviews.sass */
 .main {
   position: relative;
   margin-top: 5%;
 }
-/* line 203, ../sass/reviews.sass */
+/* line 202, ../sass/reviews.sass */
 .main .name {
   position: absolute;
   top: 0;
@@ -351,46 +348,46 @@ nav ul li:nth-child(5) {
   letter-spacing: 0.1em;
   font-weight: bold;
 }
-/* line 214, ../sass/reviews.sass */
+/* line 213, ../sass/reviews.sass */
 .main .scroll .scroll_child .item {
   background: #fff;
 }
-/* line 218, ../sass/reviews.sass */
+/* line 217, ../sass/reviews.sass */
 .main .scroll .scroll_child .item:hover .img img {
   opacity: 1;
 }
-/* line 220, ../sass/reviews.sass */
+/* line 219, ../sass/reviews.sass */
 .main .scroll .scroll_child .item .img {
   height: 200px;
 }
-/* line 222, ../sass/reviews.sass */
+/* line 221, ../sass/reviews.sass */
 .main .scroll .scroll_child .item .img img {
   max-width: 100%;
   height: auto;
   opacity: 0.8;
 }
-/* line 226, ../sass/reviews.sass */
+/* line 225, ../sass/reviews.sass */
 .main .scroll .scroll_child .item .text {
   margin-top: 0%;
 }
-/* line 228, ../sass/reviews.sass */
+/* line 227, ../sass/reviews.sass */
 .main .scroll .scroll_child .item .text h5 {
   text-align: center;
   color: #000;
   font: 2em "Bad Script", Arial, sans-serif;
 }
-/* line 232, ../sass/reviews.sass */
+/* line 231, ../sass/reviews.sass */
 .main .scroll .scroll_child .item .text h5 i {
   margin-right: 5%;
 }
-/* line 235, ../sass/reviews.sass */
+/* line 234, ../sass/reviews.sass */
 .main .scroll .scroll_child .item .text p {
   font: 1.1em "RalewayRegular", Arial, sans-serif;
   margin-top: 3%;
   padding-right: 5%;
   padding-left: 5%;
 }
-/* line 241, ../sass/reviews.sass */
+/* line 240, ../sass/reviews.sass */
 .main .scroll .scroll_child .item .btn a {
   display: block;
   margin-top: 5%;
@@ -398,17 +395,16 @@ nav ul li:nth-child(5) {
   color: #000;
   text-decoration: none;
 }
-/* line 247, ../sass/reviews.sass */
+/* line 246, ../sass/reviews.sass */
 .main .scroll .scroll_child .item .btn a:hover {
   color: #005E8E;
 }
 
-/* line 255, ../sass/reviews.sass */
+/* line 254, ../sass/reviews.sass */
 .scroll_child .item .view {
   width: 100%;
-  height: 100%;
 }
-/* line 258, ../sass/reviews.sass */
+/* line 256, ../sass/reviews.sass */
 .scroll_child .item .view-third img {
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -416,7 +412,7 @@ nav ul li:nth-child(5) {
   -ms-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-/* line 264, ../sass/reviews.sass */
+/* line 262, ../sass/reviews.sass */
 .scroll_child .item .view-third .mask {
   text-decoration: none;
   text-align: center;
@@ -424,17 +420,17 @@ nav ul li:nth-child(5) {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
-  padding-top: 30%;
+  padding-top: 15%;
 }
-/* line 272, ../sass/reviews.sass */
+/* line 270, ../sass/reviews.sass */
 .scroll_child .item .view-third h2 {
   font: 2.2em "Bad Script", Arial, sans-serif;
 }
-/* line 274, ../sass/reviews.sass */
+/* line 272, ../sass/reviews.sass */
 .scroll_child .item .view-third h2 a {
   color: #fff;
 }
-/* line 276, ../sass/reviews.sass */
+/* line 274, ../sass/reviews.sass */
 .scroll_child .item .view-third:hover .mask {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
@@ -451,7 +447,7 @@ nav ul li:nth-child(5) {
   transform: translate(0px, 0px);
   text-align: center;
 }
-/* line 291, ../sass/reviews.sass */
+/* line 289, ../sass/reviews.sass */
 .scroll_child .item .view {
   margin-bottom: 3%;
   width: 100%;
@@ -461,26 +457,26 @@ nav ul li:nth-child(5) {
   position: relative;
   cursor: default;
 }
-/* line 299, ../sass/reviews.sass */
+/* line 297, ../sass/reviews.sass */
 .scroll_child .item .view:nth-child(2) {
   margin-right: 0;
 }
-/* line 301, ../sass/reviews.sass */
+/* line 299, ../sass/reviews.sass */
 .scroll_child .item .view:nth-child(4) {
   margin-right: 0;
 }
-/* line 303, ../sass/reviews.sass */
+/* line 301, ../sass/reviews.sass */
 .scroll_child .item .view:nth-child(6) {
   margin-right: 0;
 }
-/* line 305, ../sass/reviews.sass */
+/* line 303, ../sass/reviews.sass */
 .scroll_child .item .view img {
   width: 100%;
   height: 100%;
   display: inline block;
   float: left;
 }
-/* line 313, ../sass/reviews.sass */
+/* line 311, ../sass/reviews.sass */
 .scroll_child .item .view .mask, .scroll_child .item .view .content {
   width: 100%;
   height: 100%;
@@ -489,13 +485,13 @@ nav ul li:nth-child(5) {
   top: 0;
   left: 0;
 }
-/* line 320, ../sass/reviews.sass */
+/* line 318, ../sass/reviews.sass */
 .scroll_child .item .view img {
   display: block;
   position: relative;
   max-width: 100%;
 }
-/* line 324, ../sass/reviews.sass */
+/* line 322, ../sass/reviews.sass */
 .scroll_child .item .view h2 {
   color: #fff;
   text-align: center;
@@ -505,12 +501,12 @@ nav ul li:nth-child(5) {
   margin: 20px 0 0 0;
 }
 
-/* line 343, ../sass/reviews.sass */
+/* line 341, ../sass/reviews.sass */
 .font_blue {
   color: #005E8E;
 }
 
-/* line 346, ../sass/reviews.sass */
+/* line 344, ../sass/reviews.sass */
 .line {
   width: 25px;
   height: 2px;
@@ -519,24 +515,24 @@ nav ul li:nth-child(5) {
   margin-left: 2px;
 }
 
-/* line 353, ../sass/reviews.sass */
+/* line 351, ../sass/reviews.sass */
 footer {
   margin-top: 30px;
   clear: right;
 }
-/* line 356, ../sass/reviews.sass */
+/* line 354, ../sass/reviews.sass */
 footer .container {
   padding-top: 3.5%;
   padding-bottom: 1.5%;
 }
-/* line 359, ../sass/reviews.sass */
+/* line 357, ../sass/reviews.sass */
 footer .container h5 {
   text-align: center;
   font: 1em "RalewayRegular", Arial, sans-serif;
   letter-spacing: 2px;
 }
 
-/* line 366, ../sass/reviews.sass */
+/* line 364, ../sass/reviews.sass */
 .locked {
   -webkit-user-select: none;
   -moz-user-select: none;
