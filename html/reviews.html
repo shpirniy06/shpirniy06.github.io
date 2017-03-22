@@ -73,7 +73,7 @@
     float:left;
     text-align:center;
     height: 370px;
-    margin-right: 10px;
+    margin-right: 60px;
     width: 300px;
     
   }
@@ -81,14 +81,15 @@
   .scroll_child .item .img{
   	width: 100%;
   }
-  .scroll::-webkit-scrollbar{
-  width: 1px !important;
-  }
-	.scroll::-webkit-scrollbar-thumb{
-  border-width:1px 1px 1px 1px;
-  border-color: #777;
-  background-color: #005E8E; /* #aaa  #003366*/
+	.scroll::-webkit-scrollbar-thumb {
+		background-color: #005E8E;
+		width: 20px;
 	}
+	.scroll::-webkit-scrollbar{
+		background-color: #fff;
+		height: 5px;
+	}
+	
 </style>
 </head>
 <body onkeydown="if(event.ctrlKey){return false;}" oncontextmenu="return false;">
@@ -97,16 +98,16 @@
 	<div class="container">
 		<div class="information">
 			<div class="social">
-				<div class="social-item">
-					<a href="">
-						<i class="fa fa-home" aria-hidden="true"></i>
-					</a>
-				</div>
-				<div class="social-item">
-					<a href="">
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-					</a>
-				</div>
+        <div class="social-item">
+          <a href="">
+            <h5><i class="fa fa-globe" aria-hidden="true"></i> en</h5>
+          </a>
+        </div>
+        <div class="social-item">
+          <a href="">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </a>
+        </div>
 				<div class="social-item">
 					<a href="">
 						<i class="fa fa-facebook" aria-hidden="true"></i>
@@ -136,7 +137,7 @@
 						<a href="portfolio.html">Портфолио</a>
 					</li>
 					<li><a href="services.html">Услуги</a></li>
-					<li><a href="blog.html">Полезности</a></li>
+					<li><a href="blog.html">Полезно</a></li>
 					<li><a href="" class="font_blue">Отзывы</a></li>
 					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
@@ -146,83 +147,130 @@
 
 
 <div class="main">
+	<div class="container">
 	<div class="scroll">
     <div class="scroll_child ">
-    <div class="item ">
-			<div class="img"><img src="../img/reviews.jpg" alt=""></div>
-			<div class="text">
-				<h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Алексей и Юлия</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="reviews_item/reviews.html">Читать</a></div>
+    <div class="item">
+    	<div class=" view view-third ">
+    		<div class="img"><img src="../img/reviews.jpg" alt=""></div>
+				<div class="text">
+					<h5>Алексей и Юлия</h5>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+				</div>
+				<div class="btn">...</div>
+    		<a class="mask control" href="reviews_item/reviews.html">
+   				<h2>Читать</h2>
+    		</a>
+    	</div>
     </div>
-    <div class="item ">
-			<div class="img"><img src="../img/reviews.jpg" alt=""></div>
-			<div class="text">
-				<h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Алексей и Юлия</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="reviews_item/reviews.html">Читать</a></div>
+    <div class="item">
+    	<div class=" view view-third ">
+    		<div class="img"><img src="../img/reviews.jpg" alt=""></div>
+				<div class="text">
+					<h5>Алексей и Юлия</h5>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+				</div>
+				<div class="btn">...</div>
+    		<a class="mask control" href="reviews_item/reviews.html">
+   				<h2>Читать</h2>
+    		</a>
+    	</div>
     </div>
-    <div class="item ">
-			<div class="img"><img src="../img/reviews.jpg" alt=""></div>
-			<div class="text">
-				<h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Алексей и Юлия</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="reviews_item/reviews.html">Читать</a></div>
+    <div class="item">
+    	<div class=" view view-third ">
+    		<div class="img"><img src="../img/reviews.jpg" alt=""></div>
+				<div class="text">
+					<h5>Алексей и Юлия</h5>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+				</div>
+				<div class="btn">...</div>
+    		<a class="mask control" href="reviews_item/reviews.html">
+   				<h2>Читать</h2>
+    		</a>
+    	</div>
     </div>
-    <div class="item ">
-			<div class="img"><img src="../img/reviews.jpg" alt=""></div>
-			<div class="text">
-				<h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Алексей и Юлия</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="reviews_item/reviews.html">Читать</a></div>
+    <div class="item">
+    	<div class=" view view-third ">
+    		<div class="img"><img src="../img/reviews.jpg" alt=""></div>
+				<div class="text">
+					<h5>Алексей и Юлия</h5>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+				</div>
+				<div class="btn">...</div>
+    		<a class="mask control" href="reviews_item/reviews.html">
+   				<h2>Читать</h2>
+    		</a>
+    	</div>
     </div>
-    <div class="item ">
-			<div class="img"><img src="../img/reviews.jpg" alt=""></div>
-			<div class="text">
-				<h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Алексей и Юлия</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="reviews_item/reviews.html">Читать</a></div>
+    <div class="item">
+    	<div class=" view view-third ">
+    		<div class="img"><img src="../img/reviews.jpg" alt=""></div>
+				<div class="text">
+					<h5>Алексей и Юлия</h5>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+				</div>
+				<div class="btn">...</div>
+    		<a class="mask control" href="reviews_item/reviews.html">
+   				<h2>Читать</h2>
+    		</a>
+    	</div>
     </div>
-    <div class="item ">
-			<div class="img"><img src="../img/reviews.jpg" alt=""></div>
-			<div class="text">
-				<h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Алексей и Юлия</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="reviews_item/reviews.html">Читать</a></div>
+    <div class="item">
+    	<div class=" view view-third ">
+    		<div class="img"><img src="../img/reviews.jpg" alt=""></div>
+				<div class="text">
+					<h5>Алексей и Юлия</h5>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+				</div>
+				<div class="btn">...</div>
+    		<a class="mask control" href="reviews_item/reviews.html">
+   				<h2>Читать</h2>
+    		</a>
+    	</div>
     </div>
-    <div class="item ">
-			<div class="img"><img src="../img/reviews.jpg" alt=""></div>
-			<div class="text">
-				<h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Алексей и Юлия</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="reviews_item/reviews.html">Читать</a></div>
+    <div class="item">
+    	<div class=" view view-third ">
+    		<div class="img"><img src="../img/reviews.jpg" alt=""></div>
+				<div class="text">
+					<h5>Алексей и Юлия</h5>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+				</div>
+				<div class="btn">...</div>
+    		<a class="mask control" href="reviews_item/reviews.html">
+   				<h2>Читать</h2>
+    		</a>
+    	</div>
     </div>
-    <div class="item ">
-			<div class="img"><img src="../img/reviews.jpg" alt=""></div>
-			<div class="text">
-				<h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Алексей и Юлия</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="reviews_item/reviews.html">Читать</a></div>
+    <div class="item">
+    	<div class=" view view-third ">
+    		<div class="img"><img src="../img/reviews.jpg" alt=""></div>
+				<div class="text">
+					<h5>Алексей и Юлия</h5>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+				</div>
+				<div class="btn">...</div>
+    		<a class="mask control" href="reviews_item/reviews.html">
+   				<h2>Читать</h2>
+    		</a>
+    	</div>
     </div>
-    <div class="item ">
-			<div class="img"><img src="../img/reviews.jpg" alt=""></div>
-			<div class="text">
-				<h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Алексей и Юлия</h5>
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
-			</div>
-			<div class="btn"><a href="reviews_item/reviews.html">Читать</a></div>
+    <div class="item">
+    	<div class=" view view-third ">
+    		<div class="img"><img src="../img/reviews.jpg" alt=""></div>
+				<div class="text">
+					<h5>Алексей и Юлия</h5>
+					<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения великий дорогу мир рекламных не на берегу города себя над приставка! Его одна там прямо подпоясал, пор проектах коварных силуэт.</p>
+				</div>
+				<div class="btn">...</div>
+    		<a class="mask control" href="reviews_item/reviews.html">
+   				<h2>Читать</h2>
+    		</a>
+    	</div>
     </div>
 
 
-  
+
+  </div>
   </div>
 </div>
 </div>

@@ -80,22 +80,26 @@ header
 			display: inline-block
 			float: left
 			width: 12%
-			text-align: center
 			margin-top: 5px
 			.social-item
 				display: inline-block
-				font-size: 1.6em
+				font-size: 1.8em
 				width: 30px
 				height: 30px
-				background-color: #005E8E 
 				-webkit-border-radius: 50% 
 				border-radius: 50% 
 				margin-right: 4%
+				&:first-child
+					width: 45px 
+				&:last-child
+					width: 25px 
 				a
-					color: #fff
+					color: #005E8E
 					text-decoration: none
+					&:hover
+						color: #000 
 					i
-						margin-top: 7px
+						margin-top: 7px 
 	
 		.phone_number
 			display: inline-block
@@ -141,7 +145,8 @@ nav
 				height: 100%
 				text-align: center	
 				color: #000
-				font: 1.35em "RalewayBold", Arial, sans-serif
+				font: 1.45em "RalewaySemiBold", Arial, sans-serif
+				letter-spacing: 0.05em 
 				text-decoration: none
 				&:hover
 					text-decoration: none
@@ -200,13 +205,14 @@ nav
 	margin-top: 5%
 	.container
 		.right_nav
-			width: 10%
+			width: 13%
 			display: inline-block
 			margin-bottom: 15px
 			vertical-align: top
 			margin-right: 8%
 			ul
-				font: 1.15em "RalewayRegular", Arial, sans-serif
+				font: 1.25em "RalewayMedium", Arial, sans-serif
+				letter-spacing: 0.05em 
 				li
 					margin-bottom: 15px
 					padding-top: 6px
@@ -266,7 +272,6 @@ nav
 			transform: translate(0px, 0px)
 			text-align: center
 		.view-third:hover h2 
-			
 			margin-top: 23%
 		.view
 			margin-bottom: 3%
@@ -305,7 +310,8 @@ nav
 			color: #fff
 			text-align: center
 			position: relative
-			font: 2em 'Bad Script', Arial, sans-serif
+			font: 2.1em 'Bad Script', Arial, sans-serif
+			letter-spacing: 0.05em
 			padding: 10px
 			margin: 20px 0 0 0
 			
@@ -332,7 +338,7 @@ footer
 		padding-bottom: 1.5%
 		h5
 			text-align: center
-			font: 1em "RalewayRegular", Arial, sans-serif
+			font: 1.2em "RalewayMedium", Arial, sans-serif
 			letter-spacing: 2px
 			
 

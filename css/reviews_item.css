@@ -1,4 +1,4 @@
-/* line 5, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -170,30 +170,40 @@ header .information .social {
   display: inline-block;
   float: left;
   width: 12%;
-  text-align: center;
   margin-top: 5px;
 }
-/* line 85, ../sass/reviews_item.sass */
+/* line 84, ../sass/reviews_item.sass */
 header .information .social .social-item {
   display: inline-block;
-  font-size: 1.6em;
+  font-size: 1.8em;
   width: 30px;
   height: 30px;
-  background-color: #005E8E;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin-right: 4%;
 }
+/* line 92, ../sass/reviews_item.sass */
+header .information .social .social-item:first-child {
+  width: 45px;
+}
 /* line 94, ../sass/reviews_item.sass */
+header .information .social .social-item:last-child {
+  width: 25px;
+}
+/* line 96, ../sass/reviews_item.sass */
 header .information .social .social-item a {
-  color: #fff;
+  color: #005E8E;
   text-decoration: none;
 }
-/* line 97, ../sass/reviews_item.sass */
+/* line 99, ../sass/reviews_item.sass */
+header .information .social .social-item a:hover {
+  color: #000;
+}
+/* line 101, ../sass/reviews_item.sass */
 header .information .social .social-item a i {
   margin-top: 7px;
 }
-/* line 100, ../sass/reviews_item.sass */
+/* line 104, ../sass/reviews_item.sass */
 header .information .phone_number {
   display: inline-block;
   width: 18%;
@@ -201,12 +211,12 @@ header .information .phone_number {
   text-align: right;
   float: right;
 }
-/* line 106, ../sass/reviews_item.sass */
+/* line 110, ../sass/reviews_item.sass */
 header .information .phone_number h3 {
   font: 2.2em "CuprumRegular", Arial, sans-serif;
   margin-bottom: 1%;
 }
-/* line 109, ../sass/reviews_item.sass */
+/* line 113, ../sass/reviews_item.sass */
 header .information .phone_number h2 {
   font: 1.2em "CuprumRegular", Arial, sans-serif;
   letter-spacing: 5px;
@@ -214,7 +224,7 @@ header .information .phone_number h2 {
   margin-left: 2%;
 }
 
-/* line 116, ../sass/reviews_item.sass */
+/* line 120, ../sass/reviews_item.sass */
 nav {
   display: inline-block;
   width: 100%;
@@ -223,13 +233,13 @@ nav {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 123, ../sass/reviews_item.sass */
+/* line 127, ../sass/reviews_item.sass */
 nav ul {
   width: 100%;
   height: 16px;
   padding-left: 15%;
 }
-/* line 127, ../sass/reviews_item.sass */
+/* line 131, ../sass/reviews_item.sass */
 nav ul li {
   cursor: pointer;
   float: left;
@@ -238,53 +248,54 @@ nav ul li {
   border-right: 1px solid #005E8E;
   text-align: center;
 }
-/* line 134, ../sass/reviews_item.sass */
+/* line 138, ../sass/reviews_item.sass */
 nav ul li:last-child {
   border-right: none;
 }
-/* line 136, ../sass/reviews_item.sass */
+/* line 140, ../sass/reviews_item.sass */
 nav ul li:hover {
   text-decoration: none;
 }
-/* line 138, ../sass/reviews_item.sass */
+/* line 142, ../sass/reviews_item.sass */
 nav ul li a {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
   color: #000;
-  font: 1.35em "RalewayBold", Arial, sans-serif;
+  font: 1.45em "RalewaySemiBold", Arial, sans-serif;
+  letter-spacing: 0.05em;
   text-decoration: none;
 }
-/* line 146, ../sass/reviews_item.sass */
+/* line 151, ../sass/reviews_item.sass */
 nav ul li a:hover {
   text-decoration: none;
   color: #005E8E;
 }
-/* line 149, ../sass/reviews_item.sass */
+/* line 154, ../sass/reviews_item.sass */
 nav ul li a:focus {
   color: #005E8E;
 }
-/* line 151, ../sass/reviews_item.sass */
+/* line 156, ../sass/reviews_item.sass */
 nav ul li:nth-child(5) {
   width: 19%;
 }
 
-/* line 153, ../sass/reviews_item.sass */
+/* line 158, ../sass/reviews_item.sass */
 .submenu {
   position: absolute;
   left: 0;
   right: 0;
   margin-top: 2%;
 }
-/* line 159, ../sass/reviews_item.sass */
+/* line 164, ../sass/reviews_item.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown {
   width: 100% !important;
   position: static !important;
   padding: 0 !important;
   float: right;
 }
-/* line 164, ../sass/reviews_item.sass */
+/* line 169, ../sass/reviews_item.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel {
   width: 100% !important;
   position: static !important;
@@ -295,12 +306,12 @@ nav ul li:nth-child(5) {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-/* line 173, ../sass/reviews_item.sass */
+/* line 178, ../sass/reviews_item.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul {
   width: 100%;
   height: 16px;
 }
-/* line 176, ../sass/reviews_item.sass */
+/* line 181, ../sass/reviews_item.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li {
   cursor: pointer;
   display: inline-block;
@@ -308,15 +319,15 @@ nav ul li:nth-child(5) {
   height: 100%;
   text-align: center;
 }
-/* line 182, ../sass/reviews_item.sass */
+/* line 187, ../sass/reviews_item.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li:last-child {
   border-right: none;
 }
-/* line 184, ../sass/reviews_item.sass */
+/* line 189, ../sass/reviews_item.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li:hover {
   text-decoration: none;
 }
-/* line 186, ../sass/reviews_item.sass */
+/* line 191, ../sass/reviews_item.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li a {
   display: block;
   width: 100%;
@@ -326,70 +337,76 @@ nav ul li:nth-child(5) {
   font: 1.15em "RalewayRegular", Arial, sans-serif;
   text-decoration: none;
 }
-/* line 194, ../sass/reviews_item.sass */
+/* line 199, ../sass/reviews_item.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li a:hover {
   text-decoration: none;
   color: #005E8E;
 }
 
-/* line 199, ../sass/reviews_item.sass */
+/* line 204, ../sass/reviews_item.sass */
 .main {
   position: relative;
   margin-top: 5%;
 }
-/* line 202, ../sass/reviews_item.sass */
+/* line 207, ../sass/reviews_item.sass */
 .main .header {
   text-align: center;
 }
-/* line 204, ../sass/reviews_item.sass */
+/* line 209, ../sass/reviews_item.sass */
 .main .header h3 {
-  font: 3em "Bad Script", Arial, sans-serif;
+  font: 3.2em "Bad Script", Arial, sans-serif;
+  letter-spacing: 0.05em;
 }
-/* line 206, ../sass/reviews_item.sass */
+/* line 212, ../sass/reviews_item.sass */
 .main .series {
   margin-top: 4%;
   display: block;
   margin-bottom: 1%;
 }
-/* line 210, ../sass/reviews_item.sass */
+/* line 216, ../sass/reviews_item.sass */
 .main .series a {
   text-decoration: none;
   color: #005E8E;
-  font: 1.3em "RalewayBold", Arial, sans-serif;
+  font: 1.5em "RalewayMedium", Arial, sans-serif;
+  letter-spacing: 0.05em;
 }
-/* line 215, ../sass/reviews_item.sass */
+/* line 221, ../sass/reviews_item.sass */
 .main img {
   float: left;
   display: inline-block;
   margin-right: 2%;
   margin-bottom: 2%;
 }
-/* line 221, ../sass/reviews_item.sass */
+/* line 227, ../sass/reviews_item.sass */
 .main .text p {
-  font: 1.2em "RalewayRegular", Arial, sans-serif;
+  font: 1.3em "RalewayMedium", Arial, sans-serif;
+  letter-spacing: 0.05em;
   margin-bottom: 2%;
+  line-height: 1.5em;
+  word-spacing: 0.05em;
 }
-/* line 224, ../sass/reviews_item.sass */
+/* line 234, ../sass/reviews_item.sass */
 .main .btn {
   text-align: center;
 }
-/* line 226, ../sass/reviews_item.sass */
+/* line 236, ../sass/reviews_item.sass */
 .main .btn a {
-  font: 2em "Bad Script", Arial, sans-serif;
+  font: 2.5em "Bad Script", Arial, sans-serif;
+  letter-spacing: 0.05em;
   color: #000;
   text-decoration: none;
 }
-/* line 230, ../sass/reviews_item.sass */
+/* line 241, ../sass/reviews_item.sass */
 .main .btn a:hover {
   color: #005E8E;
 }
 
-/* line 240, ../sass/reviews_item.sass */
+/* line 251, ../sass/reviews_item.sass */
 .font_blue {
   color: #005E8E;
 }
 
-/* line 243, ../sass/reviews_item.sass */
+/* line 254, ../sass/reviews_item.sass */
 .line {
   width: 25px;
   height: 2px;
@@ -398,23 +415,23 @@ nav ul li:nth-child(5) {
   margin-left: 2px;
 }
 
-/* line 250, ../sass/reviews_item.sass */
+/* line 261, ../sass/reviews_item.sass */
 footer {
   clear: left;
 }
-/* line 252, ../sass/reviews_item.sass */
+/* line 263, ../sass/reviews_item.sass */
 footer .container {
   padding-top: 3.5%;
   padding-bottom: 1.5%;
 }
-/* line 255, ../sass/reviews_item.sass */
+/* line 266, ../sass/reviews_item.sass */
 footer .container h5 {
   text-align: center;
-  font: 1em "RalewayRegular", Arial, sans-serif;
+  font: 1.2em "RalewayMedium", Arial, sans-serif;
   letter-spacing: 2px;
 }
 
-/* line 262, ../sass/reviews_item.sass */
+/* line 273, ../sass/reviews_item.sass */
 .locked {
   -webkit-user-select: none;
   -moz-user-select: none;

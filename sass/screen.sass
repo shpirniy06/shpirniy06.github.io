@@ -86,22 +86,26 @@ header
 			display: inline-block
 			float: left
 			width: 12%
-			text-align: center
 			margin-top: 5px
 			.social-item
 				display: inline-block
-				font-size: 1.6em
+				font-size: 1.8em
 				width: 30px
 				height: 30px
-				background-color: #005E8E 
 				-webkit-border-radius: 50% 
 				border-radius: 50% 
 				margin-right: 4%
+				&:first-child
+					width: 45px 
+				&:last-child
+					width: 25px 
 				a
-					color: #fff
+					color: #005E8E
 					text-decoration: none
+					&:hover
+						color: #000 
 					i
-						margin-top: 7px
+						margin-top: 7px 
 	
 		.phone_number
 			display: inline-block
@@ -147,7 +151,8 @@ nav
 				height: 100%
 				text-align: center	
 				color: #000
-				font: 1.35em "RalewayBold", Arial, sans-serif
+				font: 1.45em "RalewaySemiBold", Arial, sans-serif
+				letter-spacing: 0.05em 
 				text-decoration: none
 				&:hover
 					text-decoration: none
@@ -236,7 +241,8 @@ nav
 				color: #fff
 				text-align: center
 				position: relative
-				font: 2em 'Bad Script', Arial, sans-serif
+				font: 2.1em 'Bad Script', Arial, sans-serif
+				letter-spacing: 0.05em
 				padding: 10px
 				margin: 20px 0 0 0
 			
@@ -248,7 +254,7 @@ nav
 								
 .about_me
 	padding-top: 2%
-	height: 355px
+	height: 385px
 	margin-top: 5%
 	-moz-box-shadow: 0 2px 2px rgba(0, 94, 142, 0.45)
 	-webkit-box-shadow: 0 2px 2px rgba(0, 94, 142, 0.45)
@@ -259,7 +265,7 @@ nav
 			text-align: center
 			margin-bottom: 2%
 		h5
-			font: 1.6em "RalewayRegular", Arial, sans-serif
+			font: 1.6em "RalewayMedium", Arial, sans-serif
 			text-align: center
 			margin-bottom: 2%
 		img
@@ -267,11 +273,13 @@ nav
 			max-width: 100%
 			height: auto
 			margin-right: 2%
+			margin-top: 2.9%
 		p
-			font: 1.2em "RalewayRegular", Arial, sans-serif
+			font: 1.3em "RalewayMedium", Arial, sans-serif
 			margin-bottom: 2.2%
-			line-height: 2em
+			line-height: 2.3em
 			text-align: justify
+			
 			
 footer
 	.container
@@ -279,5 +287,5 @@ footer
 		padding-bottom: 1.5%
 		h5
 			text-align: center
-			font: 1em "RalewayRegular", Arial, sans-serif
+			font: 1.2em "RalewayMedium", Arial, sans-serif
 			letter-spacing: 2px 

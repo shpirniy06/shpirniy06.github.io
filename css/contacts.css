@@ -1,4 +1,4 @@
-/* line 5, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -170,30 +170,40 @@ header .information .social {
   display: inline-block;
   float: left;
   width: 12%;
-  text-align: center;
   margin-top: 5px;
 }
-/* line 85, ../sass/contacts.sass */
+/* line 84, ../sass/contacts.sass */
 header .information .social .social-item {
   display: inline-block;
-  font-size: 1.6em;
+  font-size: 1.8em;
   width: 30px;
   height: 30px;
-  background-color: #005E8E;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin-right: 4%;
 }
+/* line 92, ../sass/contacts.sass */
+header .information .social .social-item:first-child {
+  width: 45px;
+}
 /* line 94, ../sass/contacts.sass */
+header .information .social .social-item:last-child {
+  width: 25px;
+}
+/* line 96, ../sass/contacts.sass */
 header .information .social .social-item a {
-  color: #fff;
+  color: #005E8E;
   text-decoration: none;
 }
-/* line 97, ../sass/contacts.sass */
+/* line 99, ../sass/contacts.sass */
+header .information .social .social-item a:hover {
+  color: #000;
+}
+/* line 101, ../sass/contacts.sass */
 header .information .social .social-item a i {
   margin-top: 7px;
 }
-/* line 100, ../sass/contacts.sass */
+/* line 104, ../sass/contacts.sass */
 header .information .phone_number {
   display: inline-block;
   width: 18%;
@@ -201,12 +211,12 @@ header .information .phone_number {
   text-align: right;
   float: right;
 }
-/* line 106, ../sass/contacts.sass */
+/* line 110, ../sass/contacts.sass */
 header .information .phone_number h3 {
   font: 2.2em "CuprumRegular", Arial, sans-serif;
   margin-bottom: 1%;
 }
-/* line 109, ../sass/contacts.sass */
+/* line 113, ../sass/contacts.sass */
 header .information .phone_number h2 {
   font: 1.2em "CuprumRegular", Arial, sans-serif;
   letter-spacing: 5px;
@@ -214,7 +224,7 @@ header .information .phone_number h2 {
   margin-left: 2%;
 }
 
-/* line 116, ../sass/contacts.sass */
+/* line 120, ../sass/contacts.sass */
 nav {
   display: inline-block;
   width: 100%;
@@ -223,13 +233,13 @@ nav {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 123, ../sass/contacts.sass */
+/* line 127, ../sass/contacts.sass */
 nav ul {
   width: 100%;
   height: 16px;
   padding-left: 15%;
 }
-/* line 127, ../sass/contacts.sass */
+/* line 131, ../sass/contacts.sass */
 nav ul li {
   cursor: pointer;
   float: left;
@@ -238,53 +248,54 @@ nav ul li {
   border-right: 1px solid #005E8E;
   text-align: center;
 }
-/* line 134, ../sass/contacts.sass */
+/* line 138, ../sass/contacts.sass */
 nav ul li:last-child {
   border-right: none;
 }
-/* line 136, ../sass/contacts.sass */
+/* line 140, ../sass/contacts.sass */
 nav ul li:hover {
   text-decoration: none;
 }
-/* line 138, ../sass/contacts.sass */
+/* line 142, ../sass/contacts.sass */
 nav ul li a {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
   color: #000;
-  font: 1.35em "RalewayBold", Arial, sans-serif;
+  font: 1.45em "RalewaySemiBold", Arial, sans-serif;
+  letter-spacing: 0.05em;
   text-decoration: none;
 }
-/* line 146, ../sass/contacts.sass */
+/* line 151, ../sass/contacts.sass */
 nav ul li a:hover {
   text-decoration: none;
   color: #005E8E;
 }
-/* line 149, ../sass/contacts.sass */
+/* line 154, ../sass/contacts.sass */
 nav ul li a:focus {
   color: #005E8E;
 }
-/* line 151, ../sass/contacts.sass */
+/* line 156, ../sass/contacts.sass */
 nav ul li:nth-child(5) {
   width: 19%;
 }
 
-/* line 153, ../sass/contacts.sass */
+/* line 158, ../sass/contacts.sass */
 .submenu {
   position: absolute;
   left: 0;
   right: 0;
   margin-top: 2%;
 }
-/* line 159, ../sass/contacts.sass */
+/* line 164, ../sass/contacts.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown {
   width: 100% !important;
   position: static !important;
   padding: 0 !important;
   float: right;
 }
-/* line 164, ../sass/contacts.sass */
+/* line 169, ../sass/contacts.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel {
   width: 100% !important;
   position: static !important;
@@ -295,12 +306,12 @@ nav ul li:nth-child(5) {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-/* line 173, ../sass/contacts.sass */
+/* line 178, ../sass/contacts.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul {
   width: 100%;
   height: 16px;
 }
-/* line 176, ../sass/contacts.sass */
+/* line 181, ../sass/contacts.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li {
   cursor: pointer;
   display: inline-block;
@@ -308,15 +319,15 @@ nav ul li:nth-child(5) {
   height: 100%;
   text-align: center;
 }
-/* line 182, ../sass/contacts.sass */
+/* line 187, ../sass/contacts.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li:last-child {
   border-right: none;
 }
-/* line 184, ../sass/contacts.sass */
+/* line 189, ../sass/contacts.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li:hover {
   text-decoration: none;
 }
-/* line 186, ../sass/contacts.sass */
+/* line 191, ../sass/contacts.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li a {
   display: block;
   width: 100%;
@@ -326,23 +337,23 @@ nav ul li:nth-child(5) {
   font: 1.15em "RalewayRegular", Arial, sans-serif;
   text-decoration: none;
 }
-/* line 194, ../sass/contacts.sass */
+/* line 199, ../sass/contacts.sass */
 .submenu .container #jq-dropdown-1.jq-dropdown .jq-dropdown-panel ul li a:hover {
   text-decoration: none;
   color: #005E8E;
 }
 
-/* line 199, ../sass/contacts.sass */
+/* line 204, ../sass/contacts.sass */
 .main {
   position: relative;
-  margin-top: 100px;
+  margin-top: 60px;
 }
-/* line 202, ../sass/contacts.sass */
+/* line 207, ../sass/contacts.sass */
 .main .photo {
   position: relative;
-  left: 40%;
-  width: 200px;
-  height: 200px;
+  left: 43%;
+  width: 140px;
+  height: 140px;
   background: url("../img/contacts_bg.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -350,59 +361,61 @@ nav ul li:nth-child(5) {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 213, ../sass/contacts.sass */
+/* line 218, ../sass/contacts.sass */
 .main .text {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
-/* line 216, ../sass/contacts.sass */
+/* line 221, ../sass/contacts.sass */
 .main .text h1 {
-  font: 5em "Bad Script", Arial, sans-serif;
+  font: 3.5em "Bad Script", Arial, sans-serif;
 }
-/* line 218, ../sass/contacts.sass */
+/* line 223, ../sass/contacts.sass */
 .main .text h5 {
-  font: 2em "RalewayLight", Arial, sans-serif;
+  font: 1.8em "RalewayRegular", Arial, sans-serif;
+  letter-spacing: 0.05em;
 }
-/* line 220, ../sass/contacts.sass */
+/* line 226, ../sass/contacts.sass */
 .main .text .tel {
   padding-bottom: 40px;
-  font: 1.6em "RalewayLight", Arial, sans-serif;
+  font: 1.5em "RalewayRegular", Arial, sans-serif;
+  letter-spacing: 0.05em;
   border-bottom: 1px solid rgba(0, 94, 142, 0.2);
   margin-top: 2%;
   word-spacing: 0.3em;
 }
-/* line 226, ../sass/contacts.sass */
+/* line 233, ../sass/contacts.sass */
 .main .contacts {
   padding-top: 3%;
 }
-/* line 228, ../sass/contacts.sass */
+/* line 235, ../sass/contacts.sass */
 .main .contacts .item {
   display: inline-block;
   float: left;
   font-size: 2em;
-  margin-right: 16%;
+  margin-right: 15.8%;
 }
-/* line 233, ../sass/contacts.sass */
+/* line 240, ../sass/contacts.sass */
 .main .contacts .item:last-child {
   margin-right: 0;
 }
-/* line 235, ../sass/contacts.sass */
+/* line 242, ../sass/contacts.sass */
 .main .contacts .item i {
   color: #005E8E;
 }
-/* line 238, ../sass/contacts.sass */
+/* line 245, ../sass/contacts.sass */
 .main .contacts .item a {
-  font: 0.8em "RalewayLight", Arial, sans-serif;
+  font: 0.8em "RalewayRegular", Arial, sans-serif;
   text-decoration: none;
   color: #000;
 }
 
-/* line 247, ../sass/contacts.sass */
+/* line 254, ../sass/contacts.sass */
 .font_blue {
   color: #005E8E;
 }
 
-/* line 250, ../sass/contacts.sass */
+/* line 257, ../sass/contacts.sass */
 .line {
   width: 25px;
   height: 2px;
@@ -411,24 +424,24 @@ nav ul li:nth-child(5) {
   margin-left: 2px;
 }
 
-/* line 257, ../sass/contacts.sass */
+/* line 264, ../sass/contacts.sass */
 footer {
   margin-top: 330px;
   clear: right;
 }
-/* line 260, ../sass/contacts.sass */
+/* line 267, ../sass/contacts.sass */
 footer .container {
   padding-top: 3.5%;
   padding-bottom: 1.5%;
 }
-/* line 263, ../sass/contacts.sass */
+/* line 270, ../sass/contacts.sass */
 footer .container h5 {
   text-align: center;
   font: 1em "RalewayRegular", Arial, sans-serif;
   letter-spacing: 2px;
 }
 
-/* line 270, ../sass/contacts.sass */
+/* line 277, ../sass/contacts.sass */
 .locked {
   -webkit-user-select: none;
   -moz-user-select: none;

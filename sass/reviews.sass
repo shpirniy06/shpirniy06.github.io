@@ -80,22 +80,26 @@ header
 			display: inline-block
 			float: left
 			width: 12%
-			text-align: center
 			margin-top: 5px
 			.social-item
 				display: inline-block
-				font-size: 1.6em
+				font-size: 1.8em
 				width: 30px
 				height: 30px
-				background-color: #005E8E 
 				-webkit-border-radius: 50% 
 				border-radius: 50% 
 				margin-right: 4%
+				&:first-child
+					width: 45px 
+				&:last-child
+					width: 25px 
 				a
-					color: #fff
+					color: #005E8E
 					text-decoration: none
+					&:hover
+						color: #000 
 					i
-						margin-top: 7px
+						margin-top: 7px 
 	
 		.phone_number
 			display: inline-block
@@ -141,7 +145,8 @@ nav
 				height: 100%
 				text-align: center	
 				color: #000
-				font: 1.35em "RalewayBold", Arial, sans-serif
+				font: 1.45em "RalewaySemiBold", Arial, sans-serif
+				letter-spacing: 0.05em 
 				text-decoration: none
 				&:hover
 					text-decoration: none
@@ -227,12 +232,13 @@ nav
 					h5
 						text-align: center
 						color: #000
-						font: 2em "Bad Script", Arial, sans-serif
+						font: 2.2em "Bad Script", Arial, sans-serif
+						letter-spacing: 0.05em
 						i
 							margin-right: 5%
-					
 					p
-						font: 1.1em "RalewayRegular", Arial, sans-serif
+						font: 1.2em "RalewayRegular", Arial, sans-serif
+						letter-spacing: 0.05em
 						margin-top: 3%
 						padding-right: 5%
 						padding-left: 5%
@@ -253,6 +259,7 @@ nav
 	.item
 		.view
 			width: 100%
+			height: 100%
 		.view-third img 
 			-webkit-transition: all 0.2s ease-in
 			-moz-transition: all 0.2s ease-in
@@ -262,11 +269,11 @@ nav
 		.view-third .mask
 			text-decoration: none
 			text-align: center
-			background-color: rgba(0,0,0,0.7)
+			background-color: rgba(0,0,0,0.4)
 			-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"
 			filter: alpha(opacity=0)
 			opacity: 0
-			padding-top: 15%
+			padding-top: 30%
 		.view-third h2 
 			font: 2.2em 'Bad Script', Arial, sans-serif
 			a
@@ -323,7 +330,8 @@ nav
 			color: #fff
 			text-align: center
 			position: relative
-			font: 2em 'Bad Script', Arial, sans-serif
+			font: 2.2em 'Bad Script', Arial, sans-serif
+			letter-spacing: 0.05em
 			padding: 10px
 			margin: 20px 0 0 0
 
@@ -356,7 +364,7 @@ footer
 		padding-bottom: 1.5%
 		h5
 			text-align: center
-			font: 1em "RalewayRegular", Arial, sans-serif
+			font: 1.2em "RalewayMedium", Arial, sans-serif
 			letter-spacing: 2px
 			
 

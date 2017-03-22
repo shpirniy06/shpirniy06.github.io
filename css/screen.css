@@ -175,30 +175,40 @@ header .information .social {
   display: inline-block;
   float: left;
   width: 12%;
-  text-align: center;
   margin-top: 5px;
 }
-/* line 91, ../sass/screen.sass */
+/* line 90, ../sass/screen.sass */
 header .information .social .social-item {
   display: inline-block;
-  font-size: 1.6em;
+  font-size: 1.8em;
   width: 30px;
   height: 30px;
-  background-color: #005E8E;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin-right: 4%;
 }
+/* line 98, ../sass/screen.sass */
+header .information .social .social-item:first-child {
+  width: 45px;
+}
 /* line 100, ../sass/screen.sass */
+header .information .social .social-item:last-child {
+  width: 25px;
+}
+/* line 102, ../sass/screen.sass */
 header .information .social .social-item a {
-  color: #fff;
+  color: #005E8E;
   text-decoration: none;
 }
-/* line 103, ../sass/screen.sass */
+/* line 105, ../sass/screen.sass */
+header .information .social .social-item a:hover {
+  color: #000;
+}
+/* line 107, ../sass/screen.sass */
 header .information .social .social-item a i {
   margin-top: 7px;
 }
-/* line 106, ../sass/screen.sass */
+/* line 110, ../sass/screen.sass */
 header .information .phone_number {
   display: inline-block;
   width: 18%;
@@ -206,12 +216,12 @@ header .information .phone_number {
   text-align: right;
   float: right;
 }
-/* line 112, ../sass/screen.sass */
+/* line 116, ../sass/screen.sass */
 header .information .phone_number h3 {
   font: 2.2em "CuprumRegular", Arial, sans-serif;
   margin-bottom: 1%;
 }
-/* line 115, ../sass/screen.sass */
+/* line 119, ../sass/screen.sass */
 header .information .phone_number h2 {
   font: 1.2em "CuprumRegular", Arial, sans-serif;
   letter-spacing: 5px;
@@ -219,7 +229,7 @@ header .information .phone_number h2 {
   margin-left: 2%;
 }
 
-/* line 122, ../sass/screen.sass */
+/* line 126, ../sass/screen.sass */
 nav {
   display: inline-block;
   width: 100%;
@@ -228,13 +238,13 @@ nav {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 129, ../sass/screen.sass */
+/* line 133, ../sass/screen.sass */
 nav ul {
   width: 100%;
   height: 16px;
   padding-left: 15%;
 }
-/* line 133, ../sass/screen.sass */
+/* line 137, ../sass/screen.sass */
 nav ul li {
   cursor: pointer;
   float: left;
@@ -243,47 +253,48 @@ nav ul li {
   border-right: 1px solid #005E8E;
   text-align: center;
 }
-/* line 140, ../sass/screen.sass */
+/* line 144, ../sass/screen.sass */
 nav ul li:last-child {
   border-right: none;
 }
-/* line 142, ../sass/screen.sass */
+/* line 146, ../sass/screen.sass */
 nav ul li:hover {
   text-decoration: none;
 }
-/* line 144, ../sass/screen.sass */
+/* line 148, ../sass/screen.sass */
 nav ul li a {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
   color: #000;
-  font: 1.35em "RalewayBold", Arial, sans-serif;
+  font: 1.45em "RalewaySemiBold", Arial, sans-serif;
+  letter-spacing: 0.05em;
   text-decoration: none;
 }
-/* line 152, ../sass/screen.sass */
+/* line 157, ../sass/screen.sass */
 nav ul li a:hover {
   text-decoration: none;
   color: #005E8E;
 }
-/* line 155, ../sass/screen.sass */
+/* line 160, ../sass/screen.sass */
 nav ul li a:focus {
   color: #005E8E;
 }
-/* line 157, ../sass/screen.sass */
+/* line 162, ../sass/screen.sass */
 nav ul li:nth-child(5) {
   width: 19%;
 }
 
-/* line 160, ../sass/screen.sass */
+/* line 165, ../sass/screen.sass */
 .main {
   margin-top: 3%;
 }
-/* line 164, ../sass/screen.sass */
+/* line 169, ../sass/screen.sass */
 .main .scroll_child .item .view {
   width: 100%;
 }
-/* line 166, ../sass/screen.sass */
+/* line 171, ../sass/screen.sass */
 .main .scroll_child .item .view-third img {
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -291,7 +302,7 @@ nav ul li:nth-child(5) {
   -ms-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-/* line 172, ../sass/screen.sass */
+/* line 177, ../sass/screen.sass */
 .main .scroll_child .item .view-third .mask {
   text-decoration: none;
   text-align: center;
@@ -300,15 +311,15 @@ nav ul li:nth-child(5) {
   filter: alpha(opacity=0);
   opacity: 0;
 }
-/* line 179, ../sass/screen.sass */
+/* line 184, ../sass/screen.sass */
 .main .scroll_child .item .view-third h2 {
   font: 2.2em "Bad Script", Arial, sans-serif;
 }
-/* line 182, ../sass/screen.sass */
+/* line 187, ../sass/screen.sass */
 .main .scroll_child .item .view-third h2 a {
   color: #fff;
 }
-/* line 184, ../sass/screen.sass */
+/* line 189, ../sass/screen.sass */
 .main .scroll_child .item .view-third:hover .mask {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
@@ -325,11 +336,11 @@ nav ul li:nth-child(5) {
   transform: translate(0px, 0px);
   text-align: center;
 }
-/* line 199, ../sass/screen.sass */
+/* line 204, ../sass/screen.sass */
 .main .scroll_child .item .view-third:hover h2 {
   margin-top: 23%;
 }
-/* line 202, ../sass/screen.sass */
+/* line 207, ../sass/screen.sass */
 .main .scroll_child .item .view {
   margin-bottom: 3%;
   width: 96%;
@@ -340,26 +351,26 @@ nav ul li:nth-child(5) {
   position: relative;
   cursor: default;
 }
-/* line 211, ../sass/screen.sass */
+/* line 216, ../sass/screen.sass */
 .main .scroll_child .item .view:nth-child(2) {
   margin-right: 0;
 }
-/* line 213, ../sass/screen.sass */
+/* line 218, ../sass/screen.sass */
 .main .scroll_child .item .view:nth-child(4) {
   margin-right: 0;
 }
-/* line 215, ../sass/screen.sass */
+/* line 220, ../sass/screen.sass */
 .main .scroll_child .item .view:nth-child(6) {
   margin-right: 0;
 }
-/* line 217, ../sass/screen.sass */
+/* line 222, ../sass/screen.sass */
 .main .scroll_child .item .view img {
   width: 100%;
   height: 100%;
   display: inline block;
   float: left;
 }
-/* line 225, ../sass/screen.sass */
+/* line 230, ../sass/screen.sass */
 .main .scroll_child .item .view .mask, .main .scroll_child .item .view .content {
   width: 100%;
   height: 100%;
@@ -368,65 +379,67 @@ nav ul li:nth-child(5) {
   top: 0;
   left: 0;
 }
-/* line 232, ../sass/screen.sass */
+/* line 237, ../sass/screen.sass */
 .main .scroll_child .item .view img {
   display: block;
   position: relative;
 }
-/* line 235, ../sass/screen.sass */
+/* line 240, ../sass/screen.sass */
 .main .scroll_child .item .view h2 {
   color: #fff;
   text-align: center;
   position: relative;
-  font: 2em "Bad Script", Arial, sans-serif;
+  font: 2.1em "Bad Script", Arial, sans-serif;
+  letter-spacing: 0.05em;
   padding: 10px;
   margin: 20px 0 0 0;
 }
 
-/* line 249, ../sass/screen.sass */
+/* line 255, ../sass/screen.sass */
 .about_me {
   padding-top: 2%;
-  height: 355px;
+  height: 385px;
   margin-top: 5%;
   -moz-box-shadow: 0 2px 2px rgba(0, 94, 142, 0.45);
   -webkit-box-shadow: 0 2px 2px rgba(0, 94, 142, 0.45);
   box-shadow: 0 2px 2px rgba(0, 94, 142, 0.45);
 }
-/* line 257, ../sass/screen.sass */
+/* line 263, ../sass/screen.sass */
 .about_me .container h2 {
   font: 3em "RalewayRegular", Arial, sans-serif;
   text-align: center;
   margin-bottom: 2%;
 }
-/* line 261, ../sass/screen.sass */
+/* line 267, ../sass/screen.sass */
 .about_me .container h5 {
-  font: 1.6em "RalewayRegular", Arial, sans-serif;
+  font: 1.6em "RalewayMedium", Arial, sans-serif;
   text-align: center;
   margin-bottom: 2%;
 }
-/* line 265, ../sass/screen.sass */
+/* line 271, ../sass/screen.sass */
 .about_me .container img {
   float: left;
   max-width: 100%;
   height: auto;
   margin-right: 2%;
+  margin-top: 2.9%;
 }
-/* line 270, ../sass/screen.sass */
+/* line 277, ../sass/screen.sass */
 .about_me .container p {
-  font: 1.2em "RalewayRegular", Arial, sans-serif;
+  font: 1.3em "RalewayMedium", Arial, sans-serif;
   margin-bottom: 2.2%;
-  line-height: 2em;
+  line-height: 2.3em;
   text-align: justify;
 }
 
-/* line 277, ../sass/screen.sass */
+/* line 285, ../sass/screen.sass */
 footer .container {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
 }
-/* line 280, ../sass/screen.sass */
+/* line 288, ../sass/screen.sass */
 footer .container h5 {
   text-align: center;
-  font: 1em "RalewayRegular", Arial, sans-serif;
+  font: 1.2em "RalewayMedium", Arial, sans-serif;
   letter-spacing: 2px;
 }

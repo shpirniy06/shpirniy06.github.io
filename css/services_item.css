@@ -170,30 +170,40 @@ header .information .social {
   display: inline-block;
   float: left;
   width: 12%;
-  text-align: center;
   margin-top: 5px;
 }
-/* line 85, ../sass/services_item.sass */
+/* line 84, ../sass/services_item.sass */
 header .information .social .social-item {
   display: inline-block;
-  font-size: 1.6em;
+  font-size: 1.8em;
   width: 30px;
   height: 30px;
-  background-color: #005E8E;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin-right: 4%;
 }
+/* line 92, ../sass/services_item.sass */
+header .information .social .social-item:first-child {
+  width: 45px;
+}
 /* line 94, ../sass/services_item.sass */
+header .information .social .social-item:last-child {
+  width: 25px;
+}
+/* line 96, ../sass/services_item.sass */
 header .information .social .social-item a {
-  color: #fff;
+  color: #005E8E;
   text-decoration: none;
 }
-/* line 97, ../sass/services_item.sass */
+/* line 99, ../sass/services_item.sass */
+header .information .social .social-item a:hover {
+  color: #000;
+}
+/* line 101, ../sass/services_item.sass */
 header .information .social .social-item a i {
   margin-top: 7px;
 }
-/* line 100, ../sass/services_item.sass */
+/* line 104, ../sass/services_item.sass */
 header .information .phone_number {
   display: inline-block;
   width: 18%;
@@ -201,12 +211,12 @@ header .information .phone_number {
   text-align: right;
   float: right;
 }
-/* line 106, ../sass/services_item.sass */
+/* line 110, ../sass/services_item.sass */
 header .information .phone_number h3 {
   font: 2.2em "CuprumRegular", Arial, sans-serif;
   margin-bottom: 1%;
 }
-/* line 109, ../sass/services_item.sass */
+/* line 113, ../sass/services_item.sass */
 header .information .phone_number h2 {
   font: 1.2em "CuprumRegular", Arial, sans-serif;
   letter-spacing: 5px;
@@ -214,7 +224,7 @@ header .information .phone_number h2 {
   margin-left: 2%;
 }
 
-/* line 116, ../sass/services_item.sass */
+/* line 120, ../sass/services_item.sass */
 nav {
   display: inline-block;
   width: 100%;
@@ -223,13 +233,13 @@ nav {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 123, ../sass/services_item.sass */
+/* line 127, ../sass/services_item.sass */
 nav ul {
   width: 100%;
   height: 16px;
   padding-left: 15%;
 }
-/* line 127, ../sass/services_item.sass */
+/* line 131, ../sass/services_item.sass */
 nav ul li {
   cursor: pointer;
   float: left;
@@ -238,87 +248,92 @@ nav ul li {
   border-right: 1px solid #005E8E;
   text-align: center;
 }
-/* line 134, ../sass/services_item.sass */
+/* line 138, ../sass/services_item.sass */
 nav ul li:last-child {
   border-right: none;
 }
-/* line 136, ../sass/services_item.sass */
+/* line 140, ../sass/services_item.sass */
 nav ul li:hover {
   text-decoration: none;
 }
-/* line 138, ../sass/services_item.sass */
+/* line 142, ../sass/services_item.sass */
 nav ul li a {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
   color: #000;
-  font: 1.35em "RalewayBold", Arial, sans-serif;
+  font: 1.45em "RalewaySemiBold", Arial, sans-serif;
+  letter-spacing: 0.05em;
   text-decoration: none;
 }
-/* line 146, ../sass/services_item.sass */
+/* line 151, ../sass/services_item.sass */
 nav ul li a:hover {
   text-decoration: none;
   color: #005E8E;
 }
-/* line 149, ../sass/services_item.sass */
+/* line 154, ../sass/services_item.sass */
 nav ul li a:focus {
   color: #005E8E;
 }
-/* line 151, ../sass/services_item.sass */
+/* line 156, ../sass/services_item.sass */
 nav ul li:nth-child(5) {
   width: 19%;
 }
 
-/* line 156, ../sass/services_item.sass */
+/* line 161, ../sass/services_item.sass */
 .main {
   position: relative;
   margin-top: 5%;
 }
-/* line 159, ../sass/services_item.sass */
+/* line 164, ../sass/services_item.sass */
 .main .header {
   text-align: center;
 }
-/* line 161, ../sass/services_item.sass */
+/* line 166, ../sass/services_item.sass */
 .main .header h3 {
-  font: 3em "Bad Script", Arial, sans-serif;
+  font: 3.2em "Bad Script", Arial, sans-serif;
+  letter-spacing: 0.05em;
   color: #005E8E;
 }
-/* line 164, ../sass/services_item.sass */
+/* line 170, ../sass/services_item.sass */
 .main .header h3 i {
   margin-right: 2%;
 }
-/* line 166, ../sass/services_item.sass */
+/* line 172, ../sass/services_item.sass */
 .main .text {
   margin-top: 4%;
 }
-/* line 168, ../sass/services_item.sass */
+/* line 174, ../sass/services_item.sass */
 .main .text p {
-  font: 1.2em "RalewayRegular", Arial, sans-serif;
+  font: 1.3em "RalewayMedium", Arial, sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
   margin-bottom: 2%;
 }
-/* line 171, ../sass/services_item.sass */
+/* line 179, ../sass/services_item.sass */
 .main .btn {
   text-align: center;
   margin-top: 3%;
 }
-/* line 174, ../sass/services_item.sass */
+/* line 182, ../sass/services_item.sass */
 .main .btn a {
-  font: 2em "Bad Script", Arial, sans-serif;
+  font: 2.5em "Bad Script", Arial, sans-serif;
+  letter-spacing: 0.05em;
   color: #000;
   text-decoration: none;
 }
-/* line 178, ../sass/services_item.sass */
+/* line 187, ../sass/services_item.sass */
 .main .btn a:hover {
   color: #005E8E;
 }
 
-/* line 188, ../sass/services_item.sass */
+/* line 197, ../sass/services_item.sass */
 .font_blue {
   color: #005E8E;
 }
 
-/* line 191, ../sass/services_item.sass */
+/* line 200, ../sass/services_item.sass */
 .line {
   width: 25px;
   height: 2px;
@@ -327,23 +342,23 @@ nav ul li:nth-child(5) {
   margin-left: 2px;
 }
 
-/* line 198, ../sass/services_item.sass */
+/* line 207, ../sass/services_item.sass */
 footer {
   clear: left;
 }
-/* line 200, ../sass/services_item.sass */
+/* line 209, ../sass/services_item.sass */
 footer .container {
   padding-top: 3.5%;
   padding-bottom: 1.5%;
 }
-/* line 203, ../sass/services_item.sass */
+/* line 212, ../sass/services_item.sass */
 footer .container h5 {
   text-align: center;
-  font: 1em "RalewayRegular", Arial, sans-serif;
+  font: 1.2em "RalewayMedium", Arial, sans-serif;
   letter-spacing: 2px;
 }
 
-/* line 210, ../sass/services_item.sass */
+/* line 219, ../sass/services_item.sass */
 .locked {
   -webkit-user-select: none;
   -moz-user-select: none;

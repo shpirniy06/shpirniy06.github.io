@@ -80,22 +80,26 @@ header
 			display: inline-block
 			float: left
 			width: 12%
-			text-align: center
 			margin-top: 5px
 			.social-item
 				display: inline-block
-				font-size: 1.6em
+				font-size: 1.8em
 				width: 30px
 				height: 30px
-				background-color: #005E8E 
 				-webkit-border-radius: 50% 
 				border-radius: 50% 
 				margin-right: 4%
+				&:first-child
+					width: 45px
+				&:last-child
+					width: 25px 
 				a
-					color: #fff
+					color: #005E8E
 					text-decoration: none
+					&:hover
+						color: #000 
 					i
-						margin-top: 7px
+						margin-top: 7px 
 	
 		.phone_number
 			display: inline-block
@@ -141,7 +145,8 @@ nav
 				height: 100%
 				text-align: center	
 				color: #000
-				font: 1.35em "RalewayBold", Arial, sans-serif
+				font: 1.45em "RalewaySemiBold", Arial, sans-serif
+				letter-spacing: 0.05em 
 				text-decoration: none
 				&:hover
 					text-decoration: none
@@ -150,71 +155,103 @@ nav
 					color: #005E8E
 		li:nth-child(5)
 			width: 19%
+.submenu
+	position: absolute
+	left: 0
+	right: 0
+	margin-top: 2%
+	.container
+		#jq-dropdown-1.jq-dropdown
+			width: 100% !important
+			position: static !important
+			padding: 0 !important
+			float: right
+			.jq-dropdown-panel
+				width: 100% !important
+				min-width: 0% !important
+				max-width: 100% !important
+				padding: 0 !important
+				border: none !important
+				-webkit-box-shadow: none !important
+				box-shadow: none !important
+				ul
+					width: 100%
+					height: 16px
+					li
+						cursor: pointer
+						display: inline-block
+						width: 11.6% 
+						height: 100%
+						text-align: center
+						&:last-child
+							border-right: none
+						&:hover
+							text-decoration: none
+						a
+							display: block 
+							width: 100%
+							height: 100%
+							text-align: center	
+							color: #000
+							font: 1.15em "RalewayRegular", Arial, sans-serif
+							text-decoration: none
+							&:hover
+								text-decoration: none
+								color: #005E8E
 
 
 .main
-	position: relative
 	margin-top: 5%
-	.name
-		position: absolute
-		top: 0
-		right: 20px
-		margin-top: -45px
-		font: 2.3em 'Bad Script', Arial, sans-serif
-		color: #005E8E
-		letter-spacing: 0.1em 
-		font-weight: bold
-	.scroll
-		.scroll_child
-			.item
-				background: #fff
-				&.item_big
-					-webkit-border-image: none 
-					-moz-border-image: none 
-					-o-border-image: none 
-					border-image: none 
-					border: none
-					margin-top: 3px
-					text-align: center
-					height: 500px
-					margin-right: 10px
-					width: 500px  
-					.item_mini
-						display: inline-block
-						height: 165px
-						width: 240px
-				.img
-					height: 300px
-					img
-						max-width: 100%
-						height: auto
-						
-				.text
-					margin-top: 5%	
-					h5
-						text-align: center
-						color: #005E8E 
-						font: 2em "Bad Script", Arial, sans-serif
-					p
-						font: 1.1em "RalewayRegular", Arial, sans-serif
-						margin-top: 3%
-						padding-right: 5%
-						padding-left: 5%
-				.btn
+	.container
+		.right_nav
+			width: 20%
+			display: inline-block
+			margin-bottom: 15px
+			vertical-align: top
+			ul
+				font: 1.25em "RalewayMedium", Arial, sans-serif
+				letter-spacing: 0.05em
+				li
+					margin-bottom: 15px
+					padding-top: 6px
+					padding-bottom: 6px	
 					a
-						display: block
-						margin-top: 5%
-						font: 1.5em "RalewayBold", Arial, sans-serif
-						color: #000
 						text-decoration: none
-						&:hover
-							color: #005E8E 
-	
-					
+						color: #000
+						cursor: pointer
+						padding-bottom: 5%
 
-				
+						
+.main li a.control.mixitup-control-active
+	border-bottom: 1px solid #005E8E
+
+		
+			
+
+			
+
+
 .scroll_child
 	.item
+		background: #fff
+		.img
+			height: 300px
+			img
+				max-width: 100%
+				height: auto
+		.text
+			margin-top: 5%	
+			h5
+				text-align: center
+				color: #005E8E 
+				font: 2.2em "Bad Script", Arial, sans-serif
+				letter-spacing: 0.05em
+			p
+				font: 1.15em "RalewayRegular", Arial, sans-serif
+				letter-spacing: 0.05em
+				margin-top: 3%
+				padding-right: 5%
+				padding-left: 5%
 		.view
 			width: 100%
 		.view-third img 
@@ -224,43 +261,43 @@ nav
 			-ms-transition: all 0.2s ease-in
 			transition: all 0.2s ease-in
 		.view-third .mask
-			-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"
-			filter: alpha(opacity=100)
-			opacity: 0.8
+			text-decoration: none
 			text-align: center
-			background-color: rgba(0,0,0,0.7)
-			padding-top: 15%
+			background-color: rgba(0,0,0,0.4)
+			-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"
+			filter: alpha(opacity=0)
+			opacity: 0
 		.view-third h2 
 			font: 2.2em 'Bad Script', Arial, sans-serif
 			a
 				color: #fff
 		.view-third:hover .mask 
-			text-decoration: none
+			-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"
+			filter: alpha(opacity=100)
+			opacity: 1
+			-webkit-transition-delay: 0s
+			-moz-transition-delay: 0s
+			-o-transition-delay: 0s
+			-ms-transition-delay: 0s
+			transition-delay: 0s
+			-webkit-transform: translate(0px, 0px)
+			-moz-transform: translate(0px, 0px)
+			-o-transform: translate(0px, 0px)
+			-ms-transform: translate(0px, 0px)
+			transform: translate(0px, 0px)
 			text-align: center
-			background-color: rgba(0,0,0,0.7)
-			-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"
-			filter: alpha(opacity=0)
-			opacity: 0
-			cursor: pointer
+		.view-third:hover h2 
+			margin-top: 35%
 		.view
 			margin-bottom: 3%
-			width: 100%
+			width: 96%
+			height: 450px
 			margin-right: 5%
 			float: left
 			overflow: hidden
 			position: relative
-			cursor: default
-			&:nth-child(2)
-				margin-right: 0
-			&:nth-child(4)
-				margin-right: 0
-			&:nth-child(6)
-				margin-right: 0
-			img
-				width: 100%
-				height: 100%
-				display: inline block
-				float: left
+			cursor: pointer
+		
 			
 
 			
@@ -274,21 +311,15 @@ nav
 		.view img 
 			display: block
 			position: relative
-			max-width: 100%
 		.view h2 
 			color: #fff
 			text-align: center
 			position: relative
-			font: 2em 'Bad Script', Arial, sans-serif
+			font: 2.2em 'Bad Script', Arial, sans-serif
+			letter-spacing: 0.05em
 			padding: 10px
 			margin: 20px 0 0 0
-
-						
-					
 			
-
-
-
 
 		
 
@@ -312,7 +343,7 @@ footer
 		padding-bottom: 1.5%
 		h5
 			text-align: center
-			font: 1em "RalewayRegular", Arial, sans-serif
+			font: 1.2em "RalewayMedium", Arial, sans-serif
 			letter-spacing: 2px
 			
 

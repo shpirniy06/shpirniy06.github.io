@@ -80,22 +80,26 @@ header
 			display: inline-block
 			float: left
 			width: 12%
-			text-align: center
 			margin-top: 5px
 			.social-item
 				display: inline-block
-				font-size: 1.6em
+				font-size: 1.8em
 				width: 30px
 				height: 30px
-				background-color: #005E8E 
 				-webkit-border-radius: 50% 
 				border-radius: 50% 
 				margin-right: 4%
+				&:first-child
+					width: 45px 
+				&:last-child
+					width: 25px 
 				a
-					color: #fff
+					color: #005E8E
 					text-decoration: none
+					&:hover
+						color: #000 
 					i
-						margin-top: 7px
+						margin-top: 7px 
 	
 		.phone_number
 			display: inline-block
@@ -141,7 +145,8 @@ nav
 				height: 100%
 				text-align: center	
 				color: #000
-				font: 1.35em "RalewayBold", Arial, sans-serif
+				font: 1.45em "RalewaySemiBold", Arial, sans-serif
+				letter-spacing: 0.05em 
 				text-decoration: none
 				&:hover
 					text-decoration: none
@@ -198,16 +203,7 @@ nav
 
 .main
 	position: relative
-	margin-top: 5%
-	.name
-		position: absolute
-		top: 0
-		right: 20px
-		margin-top: -45px
-		font: 2.3em 'Bad Script', Arial, sans-serif
-		color: #005E8E
-		letter-spacing: 0.1em 
-		font-weight: bold
+	margin-top: 1%
 	.scroll
 		.scroll_child
 			.item
@@ -217,30 +213,38 @@ nav
 					padding-left: 15px
 					padding-right: 15px
 					text-align: left
-					font: 1.2em "RalewayRegular", Arial, sans-serif
+					font: 1.25em "RalewayMedium", Arial, sans-serif
+					letter-spacing: 0.05em
 					line-height: 1.5em 
 					height: 500px
 					p
 						margin-top: 5%
 						a
 							color: #005E8E
-							font: 1.2em "RalewayRegular", Arial, sans-serif
+							font: 1.2em "RalewayMedium", Arial, sans-serif
+							letter-spacing: 0.05em
 							text-decoration: none
 					.btn_back
 						position: absolute
 						bottom: 10%
 						left: 40%
-						font: 1.7em 'Bad Script', Arial, sans-serif
+						font: 1.8em 'Bad Script', Arial, sans-serif
+						letter-spacing: 0.05em
 						text-decoration: none
 						color: #005E8E
 						font-weight: 800 
 						
-
-		
-			
-
-			
-
+.name
+	position: relative
+	top: 560px
+	left: 47%
+	margin-top: -45px
+	font: 2.2em 'Bad Script', Arial, sans-serif
+	letter-spacing: 0.05em
+	color: #005E8E
+	letter-spacing: 0.1em 
+	font-weight: bold
+	
 
 
 
@@ -266,7 +270,7 @@ footer
 		padding-bottom: 1.5%
 		h5
 			text-align: center
-			font: 1em "RalewayRegular", Arial, sans-serif
+			font: 1.2em "RalewayMedium", Arial, sans-serif
 			letter-spacing: 2px
 			
 
